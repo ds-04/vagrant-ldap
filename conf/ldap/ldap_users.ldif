@@ -1,0 +1,46 @@
+dn: uid=vault,ou=people,dc=foo,dc=com
+cn: vault
+cn: Vault User
+sn: Admin_user
+uid: vault
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword: password
+
+dn: uid=a_user,ou=People,dc=foo,dc=com
+objectClass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: a_user
+sn: a_user
+uid: a_user
+userPassword: password
+
+dn: uid=b_user,ou=People,dc=foo,dc=com
+objectClass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: b_user
+sn: b_user
+uid: b_user
+userPassword: password
+
+dn: uid=c_user,ou=People,dc=foo,dc=com
+objectClass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: c_user
+sn: c_user
+uid: c_user
+userPassword: password
+
+dn: uid=d_user,ou=People,dc=foo,dc=com
+objectClass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: d_user
+sn: d_user
+uid: d_user
+userPassword: password
